@@ -1,4 +1,18 @@
-- clean: []
-- link: {}
+- clean: ['~']
+- link: 
+    ~/.dotfiles: ''
+    ~/.vimrc: vimrc
+    ~/.vim: vim/
+    ~/.bashrc: bashrc
+    ~/.bash_profile: bash_profile
+    ~/.path: path
+    ~/.exports: exports
+    ~/.aliases: aliases
+    ~/.functions: functions
+    ~/.bash_local: bash_local
 - shell: 
+  - [git submodule update --init --recursive, Updating submodules]
+  - [pip install --upgrade powerline-status, Installing powerline]
+  - [pip install --upgrade virtualenvwrapper, Installing virtualenvwrapper]
+  - [~/.vim/bundle/YouCompleteMe/install.sh, Compiling YouCompleteMe]
   - [./brew.sh, Updating homebrew packages]

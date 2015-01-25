@@ -1,3 +1,57 @@
 [submodule ".dotbot"]
 	path = .dotbot
 	url = https://github.com/anishathalye/dotbot
+[submodule "vim/bundle/vimux"]
+	path = vim/bundle/vimux
+	url = git@github.com:benmills/vimux
+[submodule "vim/bundle/syntastic"]
+	path = vim/bundle/syntastic
+	url = git@github.com:scrooloose/syntastic
+[submodule "vim/bundle/vim-colors-solarized"]
+	path = vim/bundle/vim-colors-solarized
+	url = git@github.com:altercation/vim-colors-solarized
+[submodule "vim/bundle/vim-surround"]
+	path = vim/bundle/vim-surround
+	url = git@github.com:tpope/vim-surround
+[submodule "vim/bundle/ctrlp.vim"]
+	path = vim/bundle/ctrlp.vim
+	url = git@github.com:kien/ctrlp.vim
+[submodule "vim/bundle/vim-tmux-navigator"]
+	path = vim/bundle/vim-tmux-navigator
+	url = git@github.com:christoomey/vim-tmux-navigator
+[submodule "vim/bundle/dockerfile.vim"]
+	path = vim/bundle/dockerfile.vim
+	url = git@github.com:honza/dockerfile.vim
+[submodule "vim/bundle/vim-go"]
+	path = vim/bundle/vim-go
+	url = git@github.com:fatih/vim-go
+[submodule "vim/bundle/YouCompleteMe"]
+	path = vim/bundle/YouCompleteMe
+	url = git@github.com:Valloric/YouCompleteMe
+[submodule "vim/bundle/vim-fugitive"]
+	path = vim/bundle/vim-fugitive
+	url = git@github.com:tpope/vim-fugitive
+[submodule "vim/bundle/ack.vim"]
+	path = vim/bundle/ack.vim
+	url = git@github.com:mileszs/ack.vim
+[submodule "vim/bundle/vim-pathogen"]
+	path = vim/bundle/vim-pathogen
+	url = git@github.com:tpope/vim-pathogen
+[submodule "vim/vim/autoload/vim-pathogen"]
+	path = vim/vim/autoload/vim-pathogen
+	url = git@github.com:tpope/vim-pathogen
+[submodule "vim/autoload/vim-pathogen"]
+	path = vim/autoload/vim-pathogen
+	url = git@github.com:tpope/vim-pathogen
+[submodule "vim/bundle/vim-git"]
+	path = vim/bundle/vim-git
+	url = git@github.com:tpope/vim-git
+[submodule "vim/bundle/vim-json"]
+	path = vim/bundle/vim-json
+	url = git@github.com:elzr/vim-json
+[submodule "vim/bundle/vimbufsync"]
+	path = vim/bundle/vimbufsync
+	url = git@github.com:def-lkb/vimbufsync
+[submodule "powerline"]
+	path = powerline
+	url = git@github.com:powerline/powerline
