@@ -10,6 +10,7 @@
     ~/.aliases: aliases
     ~/.functions: functions
     ~/.bash_local: bash_local
+    ~/.tmux.conf: tmux.conf
 - shell: 
   - [git submodule update --init --recursive, Updating submodules]
   - [pip install --upgrade powerline-status, Installing powerline]

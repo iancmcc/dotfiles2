@@ -7,15 +7,11 @@ runtime bundle/vim-pathogen/autoload/pathogen.vim
 call pathogen#infect()
 call pathogen#helptags()
 
+python from powerline.vim import setup as powerline_setup
+python powerline_setup()
+python del powerline_setup
+
 filetype plugin indent on
-
-let g:UltiSnipsExpandTrigger="<c-j>"
-"let g:UltiSnipsExpandTrigger="<c-g>"
-"let g:UltiSnipsJumpForwardTrigger="<c-b>"
-"let g:UltiSnipsJumpBackwardTrigger="<c-n>"
-let g:UltiSnipsEditSplit="vertical"
-
-set rtp+=~/.powerline/powerline/bindings/vim
 
 set t_Co=256
 set background=dark

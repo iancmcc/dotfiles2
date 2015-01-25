@@ -49,7 +49,8 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 powerline-daemon -q
 POWERLINE_BASH_CONTINUATION=1
 POWERLINE_BASH_SELECT=1
-. $(python -c "import powerline; print powerline.__path__[0]")/bindings/bash/powerline.sh
+POWERLINE_DIR=$(python -c "import powerline; print powerline.__path__[0]")
+. $POWERLINE_DIR/bindings/bash/powerline.sh
 
 # Source system-specific bash
 if [ -f ~/.bash_local ]; then 
