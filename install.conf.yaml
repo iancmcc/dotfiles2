@@ -1,3 +1,4 @@
 - clean: []
 - link: {}
-- shell: []
+- shell: 
+  - [./brew.sh, Updating homebrew packages]
